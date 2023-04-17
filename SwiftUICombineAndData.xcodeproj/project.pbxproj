@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6D2EFEB329E80C3F00457574 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2EFEB229E80C3F00457574 /* PrimaryButton.swift */; };
 		6D2EFEB529E812DE00457574 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2EFEB429E812DE00457574 /* Extentions.swift */; };
+		6D36DD8129ECFF25002AAE97 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36DD8029ECFF25002AAE97 /* Certificate.swift */; };
+		6D36DD8429ED0514002AAE97 /* CertificateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36DD8329ED0514002AAE97 /* CertificateViewModel.swift */; };
 		6D7288CE29E7AFC7009F53D5 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7288CD29E7AFC7009F53D5 /* MenuRow.swift */; };
 		6D7288D129E7B961009F53D5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7288D029E7B961009F53D5 /* Package.swift */; };
 		6D7288D329E7BC22009F53D5 /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7288D229E7BC22009F53D5 /* PackageRow.swift */; };
@@ -16,6 +18,7 @@
 		6D7288D829E7DBEB009F53D5 /* faqData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D7288D729E7DBEB009F53D5 /* faqData.json */; };
 		6D7288DA29E7F3F0009F53D5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7288D929E7F3F0009F53D5 /* ModelData.swift */; };
 		6D7288DC29E7FAA8009F53D5 /* FAQRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7288DB29E7FAA8009F53D5 /* FAQRow.swift */; };
+		6D8AE28529ED46370022B8EF /* CertificateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8AE28429ED46370022B8EF /* CertificateCard.swift */; };
 		6DD2326929E3CD7800D74674 /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD2326829E3CD7800D74674 /* SwiftUICombineAndDataApp.swift */; };
 		6DD2326B29E3CD7800D74674 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD2326A29E3CD7800D74674 /* ContentView.swift */; };
 		6DD2326D29E3CD7C00D74674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD2326C29E3CD7C00D74674 /* Assets.xcassets */; };
@@ -27,6 +30,7 @@
 		6DDD451029E94F5F00F4780C /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD450F29E94F5F00F4780C /* ProfileRow.swift */; };
 		6DDD451329E9746C00F4780C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DDD451229E9746C00F4780C /* FirebaseFirestore */; };
 		6DDD451529E974B600F4780C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DDD451429E974B600F4780C /* GoogleService-Info.plist */; };
+		6DDE794A29ED40540093B45D /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDE794929ED40540093B45D /* CertificatesView.swift */; };
 		6DF61CCA29E7AD740076A01C /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF61CC929E7AD740076A01C /* FAQView.swift */; };
 		6DF61CCC29E7AD920076A01C /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF61CCB29E7AD920076A01C /* PackagesView.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +38,8 @@
 /* Begin PBXFileReference section */
 		6D2EFEB229E80C3F00457574 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		6D2EFEB429E812DE00457574 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		6D36DD8029ECFF25002AAE97 /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
+		6D36DD8329ED0514002AAE97 /* CertificateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewModel.swift; sourceTree = "<group>"; };
 		6D7288CD29E7AFC7009F53D5 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		6D7288D029E7B961009F53D5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		6D7288D229E7BC22009F53D5 /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
@@ -41,6 +47,7 @@
 		6D7288D729E7DBEB009F53D5 /* faqData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faqData.json; sourceTree = "<group>"; };
 		6D7288D929E7F3F0009F53D5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		6D7288DB29E7FAA8009F53D5 /* FAQRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQRow.swift; sourceTree = "<group>"; };
+		6D8AE28429ED46370022B8EF /* CertificateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCard.swift; sourceTree = "<group>"; };
 		6DD2326529E3CD7800D74674 /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD2326829E3CD7800D74674 /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		6DD2326A29E3CD7800D74674 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +59,7 @@
 		6DD98B3529E6C49B00BF4C0C /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
 		6DDD450F29E94F5F00F4780C /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
 		6DDD451429E974B600F4780C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DDE794929ED40540093B45D /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
 		6DF61CC929E7AD740076A01C /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		6DF61CCB29E7AD920076A01C /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,11 +84,20 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		6D36DD8229ED04E3002AAE97 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D36DD8329ED0514002AAE97 /* CertificateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		6D7288CF29E7B934009F53D5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				6D7288D029E7B961009F53D5 /* Package.swift */,
 				6D7288D429E7DA75009F53D5 /* FAQ.swift */,
+				6D36DD8029ECFF25002AAE97 /* Certificate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +108,14 @@
 				6D7288D729E7DBEB009F53D5 /* faqData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D8AE28329ED46090022B8EF /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				6D8AE28429ED46370022B8EF /* CertificateCard.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 		6DD2325C29E3CD7800D74674 = {
@@ -112,6 +137,7 @@
 		6DD2326729E3CD7800D74674 /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				6D36DD8229ED04E3002AAE97 /* ViewModels */,
 				6D7288D629E7DB59009F53D5 /* Resources */,
 				6D7288CF29E7B934009F53D5 /* Models */,
 				6DF61CD129E7AE3D0076A01C /* Components */,
@@ -160,6 +186,7 @@
 			children = (
 				6DF61CC929E7AD740076A01C /* FAQView.swift */,
 				6DF61CCB29E7AD920076A01C /* PackagesView.swift */,
+				6DDE794929ED40540093B45D /* CertificatesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +212,7 @@
 		6DF61CD129E7AE3D0076A01C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				6D8AE28329ED46090022B8EF /* Cards */,
 				6D2EFEB129E80BF700457574 /* Buttons */,
 				6DEBB35529E7AF3E0003D527 /* Row */,
 				6DF61CCF29E7ADF60076A01C /* Other */,
@@ -273,12 +301,15 @@
 				6DD2327929E3CFFA00D74674 /* VisualEffectBlur.swift in Sources */,
 				6D7288DC29E7FAA8009F53D5 /* FAQRow.swift in Sources */,
 				6DD2327C29E3DA9A00D74674 /* TrackableScrollView.swift in Sources */,
+				6D36DD8129ECFF25002AAE97 /* Certificate.swift in Sources */,
 				6D7288CE29E7AFC7009F53D5 /* MenuRow.swift in Sources */,
 				6D7288DA29E7F3F0009F53D5 /* ModelData.swift in Sources */,
 				6D7288D329E7BC22009F53D5 /* PackageRow.swift in Sources */,
 				6DD2326B29E3CD7800D74674 /* ContentView.swift in Sources */,
 				6DF61CCA29E7AD740076A01C /* FAQView.swift in Sources */,
 				6DF61CCC29E7AD920076A01C /* PackagesView.swift in Sources */,
+				6D36DD8429ED0514002AAE97 /* CertificateViewModel.swift in Sources */,
+				6D8AE28529ED46370022B8EF /* CertificateCard.swift in Sources */,
 				6DDD451029E94F5F00F4780C /* ProfileRow.swift in Sources */,
 				6D7288D129E7B961009F53D5 /* Package.swift in Sources */,
 				6D7288D529E7DA75009F53D5 /* FAQ.swift in Sources */,
@@ -286,6 +317,7 @@
 				6D2EFEB529E812DE00457574 /* Extentions.swift in Sources */,
 				6D2EFEB329E80C3F00457574 /* PrimaryButton.swift in Sources */,
 				6DD2326929E3CD7800D74674 /* SwiftUICombineAndDataApp.swift in Sources */,
+				6DDE794A29ED40540093B45D /* CertificatesView.swift in Sources */,
 				6DD2327A29E3CFFA00D74674 /* AccountBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
